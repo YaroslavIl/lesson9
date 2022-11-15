@@ -731,12 +731,13 @@ label{
 				grid-template-columns:repeat(4, 1fr);
 				grid-template-rows: repeat(2, 2fr 1fr 1fr);
 				& div{
-				transition: all 0.7s;
-				&:hover{
-					transform: scale(1);
+					transition: all 0.7s;
+					&:hover{
+						transform: scale(1);
+					}
 				}
 			}
-		}
+			
 		}
 
 		// .purpose__item1
@@ -910,6 +911,9 @@ label{
 				grid-template-columns: repeat(2, auto);
 				grid-template-rows: repeat(6, 200px);
 				justify-items: center;
+			}
+			@media (max-width: 500px){
+				grid-template-rows: repeat(6, 150px);
 			}
 		}
 

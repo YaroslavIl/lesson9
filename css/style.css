@@ -734,6 +734,11 @@ label {
     justify-items: center;
   }
 }
+@media (max-width: 500px) {
+  .awards__grid-container {
+    grid-template-rows: repeat(6, 150px);
+  }
+}
 .awards__content1 {
   grid-column-start: 1;
   grid-column-end: 3;
